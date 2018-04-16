@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Registration Form</title>
+</head>
+<body>
+    <h1>My Registration Form</h1>
+    <div><label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name">
+    </div>
+    <div>
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name">
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="value from-rainbow">
+    </div>
+    <div><label for="password">Password</label>
+        <input type="password" id="password" name="password">
+    </div>
+    <div>
+        <label for="password">Password Confirm</label>
+        <input type="password" id="password" name="password">
+    </div>
+    <div>
+        <form action="/action_page.php">
+            Birthday: </form>
+            <input type="date" name="bday">
+            
+    </div>
+    <div> <p>Select your gender:</p>
+        <label>
+           Male<input type="radio" name="gender" value="male"> 
+        </label>
+        <label>
+           Female<input type="radio" name="gender" value="female">
+        </label>
+        <label>
+           Prefer not to say<input type="radio" name="gender" value="decline">
+        </label>
+    </div>
+    Write something about yourself!
+    <div><textarea name="description"></textarea>
+    </div>
+    Please select your favorite language
+    <div><select name="Fav Language">
+            <option value="Python">Python</option>
+            <option value="Ruby">Ruby</option>
+            <option value="Mean">Mean</option>
+        </select>
+        </div>
+        <input type="submit">
+       
+</body>
+</html>
